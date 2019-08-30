@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  padding: 2vh;
+  background-color: slategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  color: darkorange;
+  transform: scale(1.5);
+}
